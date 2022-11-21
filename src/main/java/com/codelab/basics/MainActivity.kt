@@ -15,7 +15,9 @@ import com.codelab.basics.ui.theme.BasicsCodelabTheme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        //레이아웃 정의
         setContent {
+            //구성 가능한 함수의 스타일을 지정하는 방법
             BasicsCodelabTheme {
                 /*
                 // A surface container using the 'background' color from the theme
